@@ -2,13 +2,13 @@
   "name": "compass",
   "private": true,
   "version": "0.1.0",
+  "homepage": "https://angriachu.github.io/compasslife",
   "type": "module",
-  "homepage": "https://compasslife.in",
   "scripts": {
     "dev": "vite",
-    "build": "grunt",
+    "build": "vite build",
     "watch": "grunt dev",
-    "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
